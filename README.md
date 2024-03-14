@@ -12,7 +12,7 @@ How to deploid the characteres one by one:
 
 - listener on placeholder of text input
 
-- sintax of eventListener:
+sintax of eventListener:
 
 addEventListener(type, listener)
 addEventListener(type, listener, options)
