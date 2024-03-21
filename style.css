@@ -1,0 +1,206 @@
+:root {
+
+/* Primary */
+/* (active input border) */
+--Linear-gradient: hsl(249, 99%, 64%) to hsl(278, 94%, 30%);
+/* (input errors) */
+--Red: hsl(0, 100%, 66%);
+
+/* Neutral */
+
+--White: hsl(0, 0%, 100%);
+--Light-grayish-violet: hsl(270, 3%, 87%);
+--Dark-grayish-violet: hsl(279, 6%, 55%);
+--Very-dark-violet: hsl(278, 68%, 11%);
+
+/* Typography */
+
+--Font-size: 18px;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Space Grotesk;
+}
+
+body {
+    background-color: var(--White);
+    display:flex;
+    flex-direction:row;
+    width: 100%;
+    min-height: 100vh;
+    box-sizing:border-box;
+
+}
+
+/* Cards section */
+
+.imgBackground {
+    background-image: url('images/bg-main-desktop.png');
+    background-size: 100vh;
+    background-position: center center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;   
+    visibility: visible;
+}
+
+.imgCardSection,
+.imgBackCardSection {
+    overflow: visible;
+    position: relative;
+    left: 40%;
+    height: 30%;
+    width: 60%;
+    border-radius: 5%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.imgCardSection {
+    margin-bottom: 5%;
+}
+.imgBackCardSection {
+    left: 60%;
+    margin-top: 5%;
+
+}
+
+.logoCard,
+h3,
+.cardName,
+.cardExpireSpan {
+    margin-left: 7%;
+    color: var(--White);
+}
+
+.logoCard {
+    margin-top: 6%;
+}
+
+h2 {
+    margin-top: 4%;
+}
+.cardName {
+    margin: 5% 14% 0 7%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    ;
+}
+
+
+
+/* Back Card Section */
+
+.cvv {
+    margin: 22% 19% 0 0;
+    text-align: end;
+    justify-content: end;
+    color: var(--White);
+}
+/* .imgCard
+.imgBackCard {
+    width: 80%;
+} */
+
+
+
+/* form section */
+
+.form {
+    height: 100%;
+    width: 60%;
+    margin-top: 30vh;
+    margin-left: 15%;
+    margin-right: 10%;
+    border: none;
+
+    /* display: flex;
+    justify-content: space-between;
+    flex-direction: row; */
+}
+
+input{
+    margin: 0.5rem 0rem;
+    height: 2rem;
+    width: 100%;
+    padding: 0rem 0.5rem;
+    outline: none;
+    border-radius: 0.5rem;
+    border: 1px solid var(--Dark-grayish-violet);
+}
+label{
+    color: var(--Very-dark-violet);
+    font-weight: bold;
+}
+.more{
+    display: flex;
+    width: 100%;
+}
+
+.expiry .in{
+    display: flex;
+}
+.expiry .in input{
+    margin-right: 0.5rem;
+}
+
+.cvv{
+    margin-left: 1rem;
+}
+#submit{
+    background-color: var(--Very-dark-violet);
+    color: white;
+}
+.endForm {
+    display: flex;
+}
+
+.submit-boton:hover {
+    background-color: black;
+    color: var(--White);
+    
+}
+.done{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.done h3{
+    margin-top: 1rem;
+    color: var(--Very-dark-violet);
+}
+
+.done p{
+    color: var(--Dark-grayish-violet);
+    margin-top: 1rem;
+}
+
+#continue{
+    background-color: var(--Very-dark-violet);
+    color: white;
+    width: 100%;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin-top: 1rem;
+
+}
+.completedState {
+    visibility: hidden;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
