@@ -1,6 +1,58 @@
-# Card-payment-page
+# Frontend Mentor - Interactive card details form solution
 
-Research:
+This is a solution to the [Interactive card details form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- Fill in the form and see the card details update in real-time
+- Receive error messages when the form is submitted if:
+  - Any input field is empty
+  - The card number, expiry date, or CVC fields are in the wrong format
+- View the optimal layout depending on their device's screen size
+- See hover, active, and focus states for interactive elements on the page
+
+### Screenshot
+
+<img width="933" alt="image" src="https://github.com/juanpablobracco/Card-payment-page/assets/64668332/b4e6ad07-f535-48e6-962c-d72f40828359">
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+
+### What I learned
+
+Event Handling:
+I utilized event handlers to respond to user actions. For instance:
+When the user clicked the “Submit” button, an event handler triggered the display of card data.
+Event listeners were attached to specific elements (e.g., form submission) to execute custom JavaScript code.
+To see how you can add code snippets, see below:
+
+Personal research to develop:
 
 - registering an event handler
   
@@ -37,32 +89,14 @@ let element = document.getElementById("username");
         })
 
 
-
-
-
-or
-
-
-var textInputElement = document.getElementById('textInput');
-      textInputElement.addEventListener('keyup', function(){
-        var text = textInputElement.value;
-        console.log('New text is "' + text + '"');
-      });
-
-- PSI DSS STANDARD
+- PSI DSS STANDARD -
 Security standard documentation to handler payment personal data. 
 
-https://www.pcisecuritystandards.org/document_library/?category=mpoc&document=mpocsectest
+Documentation: https://www.pcisecuritystandards.org/document_library/?category=mpoc&document=mpocsectest
 
-To the Card, use the photo as a background of a new div container.
 
-<section>
-<div class="card" style="background-image: url('');">
-  <h2><span></span>span></h2>
-  ...
-</div>
+### Useful resources
 
-<div>
-  <h2><span></span></h2>
-</div>
-<section>
+- (https://developer.mozilla.org/es/docs/Web/API/Event) - Usufull intro to Events and handlers to manipulate the DOM properly. 
+- (https://www.pcisecuritystandards.org/document_library/?category=mpoc&document=mpocsectest) - Security standard documentation to handler payment personal data- Not used to this proyect, but interesting to learn more about the proper way to handle this kind of sensitive personal data.
+
