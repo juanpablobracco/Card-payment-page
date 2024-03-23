@@ -28,7 +28,9 @@ Users should be able to:
 
 ### Screenshot
 
-<img width="933" alt="image" src="https://github.com/juanpablobracco/Card-payment-page/assets/64668332/b4e6ad07-f535-48e6-962c-d72f40828359">
+<img width="933" alt="desktop size" src="https://github.com/juanpablobracco/Card-payment-page/assets/64668332/b4e6ad07-f535-48e6-962c-d72f40828359">
+<img width="501" alt="movile size" src="https://github.com/juanpablobracco/Card-payment-page/assets/64668332/09747bf1-9643-460a-b59c-4602357340ab">
+
 
 ### Links
 
